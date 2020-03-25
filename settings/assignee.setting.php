@@ -1,20 +1,20 @@
 <?php
 
-return array(
-  'assignee_group' => array(
+return [
+  'assignee_group' => [
     'group_name' => 'Assignee Settings',
     'group' => 'assignee',
     'name' => 'assignee_group',
-    'type' => 'Integer', 
+    'type' => 'Integer',
     'title' => 'Activity Assignee Group',
     'description' => 'Limit activity assignees to a specific Group?',
     'help_text' => 'When selecting assignees for an activity, limit the available individuals to those in the specified group',
     'html_type' => 'select',
-    'html_attributes' => array('options' => 'GROUPS'),
+    'html_attributes' => ['options' => 'GROUPS'],
     'quick_form_type' => 'Element',
-  ),
+  ],
 
-  'assignee_as_source' => array(
+  'assignee_as_source' => [
     'group_name' => 'Assignee Settings',
     'group' => 'assignee',
     'name' => 'assignee_as_source',
@@ -26,5 +26,5 @@ return array(
     'html_type' => 'checkbox',
     'html_attributes' => '',
     'quick_form_type' => 'Element',
-  ),
-);
+  ],
+];
